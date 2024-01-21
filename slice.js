@@ -1,5 +1,5 @@
 var numbers = [21, 35, 23, 64, 234, 45, 34, 35];
-var slice =numbers.slice(2, 5);
+var slice = numbers.slice(2, 5);
 console.log(slice);
 var include = numbers.includes(23);
 console.log(include);

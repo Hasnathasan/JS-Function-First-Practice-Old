@@ -1,23 +1,23 @@
-function result(number){
-    if(number >= 80){
+function result(number) {
+    if (number >= 80) {
         console.log("You got GPA-5");
     }
-    else if(number >= 70){
+    else if (number >= 70) {
         console.log("You got A");
     }
-    else if(number >= 60){
+    else if (number >= 60) {
         console.log("you got A-");
     }
-    else if(number >= 50){
+    else if (number >= 50) {
         console.log("you got B");
     }
-    else if(number >= 40){
+    else if (number >= 40) {
         console.log("you got C");
     }
-    else if(number >= 33){
+    else if (number >= 33) {
         console.log("you got D");
     }
-    else if(number < 33){
+    else if (number < 33) {
         console.log("You are Fail");
     }
 }

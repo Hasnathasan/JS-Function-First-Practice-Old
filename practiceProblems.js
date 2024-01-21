@@ -28,8 +28,8 @@
 
 // Problem No.4
 
-function odd_even(num){
-    switch(num){
+function odd_even(num) {
+    switch (num) {
         case (num % 2) === 0:
             console.log("This is a even number");
             break;
@@ -39,11 +39,11 @@ function odd_even(num){
 }
 odd_even(4)
 
-function odd_even(num){
-    if((num % 2) === 0){
+function odd_even(num) {
+    if ((num % 2) === 0) {
         var ans = console.log("This is even");
     }
-    else if((num % 2) !== 0){
+    else if ((num % 2) !== 0) {
         var ans = console.log("This is odd");
     }
     return ans

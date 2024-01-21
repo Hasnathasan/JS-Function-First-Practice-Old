@@ -7,10 +7,10 @@
 
 // console.log(sum(15, 95))
 
-function singara(money){
+function singara(money) {
     singaraPrice = 15;
     var ferot = money % singaraPrice;
-    singaraqunatity = (money-ferot) / singaraPrice;
+    singaraqunatity = (money - ferot) / singaraPrice;
     return [singaraqunatity, ferot];
 }
 
